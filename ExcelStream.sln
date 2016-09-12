@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9F92A718-9EA9-4FF3-BA20-94648E8D2D27}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F793D56D-AE8A-4CD3-933F-EAFFA4ADD8DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{47F8829B-C46F-409D-8525-7437501DE51F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ExcelStream", "src\DirectExcelStream\ExcelStream.xproj", "{8377E63B-42A6-4C2E-83E6-1CBE65053230}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ExcelStream.Facts", "test\ExcelStream.Facts\ExcelStream.Facts.xproj", "{10F9425A-F12D-4BD0-85B6-583AB817195F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8377E63B-42A6-4C2E-83E6-1CBE65053230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8377E63B-42A6-4C2E-83E6-1CBE65053230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8377E63B-42A6-4C2E-83E6-1CBE65053230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8377E63B-42A6-4C2E-83E6-1CBE65053230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F9425A-F12D-4BD0-85B6-583AB817195F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F9425A-F12D-4BD0-85B6-583AB817195F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F9425A-F12D-4BD0-85B6-583AB817195F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F9425A-F12D-4BD0-85B6-583AB817195F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8377E63B-42A6-4C2E-83E6-1CBE65053230} = {F793D56D-AE8A-4CD3-933F-EAFFA4ADD8DA}
+		{10F9425A-F12D-4BD0-85B6-583AB817195F} = {47F8829B-C46F-409D-8525-7437501DE51F}
+	EndGlobalSection
+EndGlobal

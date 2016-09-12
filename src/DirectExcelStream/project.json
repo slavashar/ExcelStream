@@ -1,0 +1,23 @@
+{
+  "version": "0.1.0-*",
+
+  "description": "ExcelStream Class Library",
+  "authors": [ "Slava Sharashkin" ],
+  
+  "frameworks": {
+    "net451": {
+      "frameworkAssemblies": {
+        "System.Xml": "4.0.0.0",
+        "WindowsBase": "4.0.0.0"
+      }
+    },
+    "netstandard1.3": {
+      "dependencies": {
+        "System.IO.Packaging": "4.0.0",
+        "System.Linq": "4.1.0",
+        "System.Runtime.InteropServices": "4.1.0",
+        "System.Xml.ReaderWriter": "4.0.11"
+      }
+    }
+  }
+}
